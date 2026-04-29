@@ -1,0 +1,142 @@
+# Credit Risk Prediction & Default Analysis
+
+## Project Overview
+
+This project focuses on predicting credit default risk using Machine Learning techniques. The main objective is to help banks identify high-risk loan applicants before loan approval, reducing financial losses caused by bad debt.
+
+The model classifies customers into:
+
+* Good Loan (0) = Non-default customer
+* Bad Loan (1) = Defaulting customer
+
+This project supports better decision-making in the banking sector by improving risk assessment and loan approval efficiency.
+
+---
+
+## Business Problem
+
+In banking, one of the biggest risks is credit default, where borrowers fail to repay loans. Incorrect approval of risky customers leads to major financial losses.
+
+This project aims to solve this problem by building a predictive model that can identify potential defaulters early.
+
+---
+
+## Dataset Information
+
+Dataset used: `credit.csv`
+
+### Target Variable
+
+* `default`
+
+  * 0 = Good Loan
+  * 1 = Default Loan
+
+### Important Features
+
+* Checking_balance
+* Savings_balance
+* Existing_credits
+* Installment_rate
+* Installment_plan
+* Age
+* Personal_status
+* Dependents
+
+These features help determine customer creditworthiness.
+
+---
+
+## Machine Learning Workflow
+
+### Step 1: Exploratory Data Analysis (EDA)
+
+* Data understanding
+* Missing value checking
+* Statistical summary
+* Default distribution analysis
+* Correlation heatmap
+* Age distribution analysis
+
+### Step 2: Data Preprocessing
+
+* Handling missing values
+* Encoding categorical variables
+* Feature scaling
+* Removing unnecessary columns
+* Train-test split
+
+### Step 3: Model Training
+
+Multiple classification models were trained and compared:
+
+* Logistic Regression
+* Decision Tree
+* Random Forest
+* Support Vector Machine (SVM)
+
+---
+
+## Evaluation Metrics
+
+Accuracy alone is not enough for credit risk prediction.
+
+### Important Metrics Used
+
+### Recall
+
+High recall is important because missing a default customer can cause major financial loss.
+
+### F1-Score
+
+Used to balance false positives and false negatives.
+
+### AUC-ROC
+
+Measures how well the model distinguishes between good and bad loan applicants.
+
+---
+
+## Final Outcome
+
+The best-performing model was selected based on:
+
+* Recall
+* F1-Score
+* AUC-ROC
+
+This helps banks:
+
+* Reduce bad debt
+* Improve approval speed
+* Increase operational efficiency
+* Make smarter lending decisions
+
+---
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+* Jupyter Notebook
+* Google Colab
+
+---
+
+## Final Deliverables
+
+* Machine Learning Python Code (.ipynb)
+* Business Presentation (PowerPoint)
+* GitHub Repository
+
+---
+
+## Author
+
+Ali Raza
+
+Machine Learning for Business Analysis
+Semester 5 Project
